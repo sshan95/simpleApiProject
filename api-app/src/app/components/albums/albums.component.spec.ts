@@ -4,19 +4,12 @@ import { AlbumsComponent } from './albums.component';
 
 describe('AlbumsComponent', () => {
   let component: AlbumsComponent;
-  let fixture: ComponentFixture<AlbumsComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ AlbumsComponent ]
-    })
-    .compileComponents();
-  });
+  let apiServiceMock: any;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AlbumsComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    component = new AlbumsComponent(
+      apiServiceMock,
+    );
   });
 
   it('should create', () => {

@@ -1,25 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { AlbumComponent } from './album.component';
 
 describe('AlbumComponent', () => {
   let component: AlbumComponent;
-  let fixture: ComponentFixture<AlbumComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ AlbumComponent ]
-    })
-    .compileComponents();
-  });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AlbumComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    component = new AlbumComponent()
   });
+
+  describe('Setup Component', () => {
+    describe('ngOnInit', () => {
+      it('should do nothing', () => {
+        component.ngOnInit();
+      })
+    })
+  })
 
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });
