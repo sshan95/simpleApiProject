@@ -1,0 +1,25 @@
+.album {
+    background-color: rgb(243, 243, 243);
+    border: grey solid 1px;
+    margin: 1rem 2rem;
+    height: auto;
+    width: 380px;
+    border-radius: 12px;
+}
+
+.thumbNail {
+    text-align: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.id {
+    text-align: center;
+    font-weight: 500;
+}

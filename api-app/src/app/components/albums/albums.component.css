@@ -1,0 +1,4 @@
+.albums {
+    display: inline-block;
+    flex-direction: wrap;
+}

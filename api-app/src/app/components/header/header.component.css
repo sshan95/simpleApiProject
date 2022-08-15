@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.header-title {
+    margin-left: 1em;
+    color: rgb(71, 71, 71);
+}
+
+.mat-toolbar.mat-primary {
+    margin-top:0;
+    background: #e6e6e6;
+    color: #fff;
+}
