@@ -20,5 +20,5 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng run test` to execute the unit tests via [Jest].  More specific scripts in package.json
+Run `ng run test` to execute the unit tests via [Jest].  More specific script commands in package.json
 
