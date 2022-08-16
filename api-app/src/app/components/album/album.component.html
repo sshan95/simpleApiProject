@@ -1,9 +1,11 @@
-<div class="album">
+<mat-card class="album">
     <div #thumbNail class="thumbNail" (click)="redirectToUrl(thumbNail)" [attr.data-album-url]="album.url" data-id={album.url}>
         <img src="{{album.thumbnailUrl}}" alt="thumbnailUrl">
     </div>
-    <div class="id">
-        <p>ID: {{ album.id }}</p>
-    </div>
-    <h3>{{ album.title}}</h3>
-</div>
+    <mat-card-content>
+        <div class="id">
+            <p>ID: {{ album.id }}</p>
+        </div>
+        <h3>{{ album.title}}</h3>
+    </mat-card-content>
+</mat-card>
