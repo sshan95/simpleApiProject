@@ -10,4 +10,13 @@ describe('HeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  describe('Setup Component', () => {
+    describe('ngOnInit', () => {
+      it('should do nothing', () => {
+        component.ngOnInit();
+      })
+    })
+  })
+
 });
